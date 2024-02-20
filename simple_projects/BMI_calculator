@@ -1,1 +1,12 @@
+ 
+height = input("Enter the height of the person in m : \n")
+ 
+weight = input("Enter the weight of the person in kg : \n")
 
+h=float(height)
+
+w=int(weight)
+
+BMI=int(w/(h*h))
+ 
+print(BMI)
